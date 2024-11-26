@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetDatabaseName>dacpac_db_demo</TargetDatabaseName>
+    <DeployScriptFileName>profile_publish.sql</DeployScriptFileName>
+	<TargetConnectionString>Data Source=AZR-HQ-PMU23PF1;Persist Security Info=True;User ID=HQ\keerthi.chiguru;Password=vinnikp@1413;Pooling=False;Multiple Active Result Sets=False;Connect Timeout=60;Encrypt=False;Trust Server Certificate=True;Command Timeout=0</TargetConnectionString>
+	<ExcludeObjectType>Table</ExcludeObjectType>
+    <ExcludeObjectType>StoredProcedure</ExcludeObjectType>
+    <ExcludeObjectType>View</ExcludeObjectType>
+    <BlockWhenDriftDetected>False</BlockWhenDriftDetected>
+    <RegisterDataTierApplication>False</RegisterDataTierApplication>
+    <BlockOnPossibleDataLoss>False</BlockOnPossibleDataLoss>
+    <ExcludeRules>False</ExcludeRules>
+    <ProfileVersionNumber>1</ProfileVersionNumber>
+    <DeployDatabaseInSingleUserMode>True</DeployDatabaseInSingleUserMode>
+    <BackupDatabaseBeforeChanges>True</BackupDatabaseBeforeChanges>
+    <NoAlterStatementsToChangeCLRTypes>True</NoAlterStatementsToChangeCLRTypes>
+    <CommentOutSetVarDeclarations>True</CommentOutSetVarDeclarations>
+    <CompareUsingTargetCollation>True</CompareUsingTargetCollation>
+    <!-- Add more ExcludeObjectType elements as needed -->
+  </PropertyGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="ExcludeProcedures">
+      <Value>usp_AccuityBankData_sel</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="ExcludeTables">
+      <Value>dbo.seq_temp</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
+</Project>

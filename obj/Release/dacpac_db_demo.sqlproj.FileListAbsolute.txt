@@ -1,0 +1,6 @@
+C:\Users\keerthi.chiguru\source\repos\dacpac_demo\dacpac_db_demo\bin\Release\dacpac_db_demo.dacpac
+C:\Users\keerthi.chiguru\source\repos\dacpac_demo\dacpac_db_demo\bin\Release\dacpac_db_demo.dll
+C:\Users\keerthi.chiguru\source\repos\dacpac_demo\dacpac_db_demo\bin\Release\dacpac_db_demo.pdb
+C:\Users\keerthi.chiguru\source\repos\dacpac_demo\dacpac_db_demo\obj\Release\dacpac_db_demo.sqlproj.AssemblyReference.cache
+C:\Users\keerthi.chiguru\source\repos\dacpac_demo\dacpac_db_demo\obj\Release\dacpac_db_demo.dll
+C:\Users\keerthi.chiguru\source\repos\dacpac_demo\dacpac_db_demo\obj\Release\dacpac_db_demo.pdb

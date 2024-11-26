@@ -1,0 +1,10 @@
+11/20/2024 8:35:23 PM	This log contains information about the import schema operation into project 'dacpac_db_demo' on computer 'AZR-HQ-PMU23PF1' by user 'keerthi.chiguru'.
+11/20/2024 8:35:23 PM	Deserializing model
+11/20/2024 8:35:23 PM	Resolving model
+11/20/2024 8:35:23 PM	Visiting imported model for types
+11/20/2024 8:35:24 PM	Scanning project for duplicate elements
+11/20/2024 8:35:24 PM	Finished duplicate element processing
+11/20/2024 8:35:24 PM	Processing extra files
+11/20/2024 8:35:24 PM	Finished importing Data-tier Application file.
+11/20/2024 8:35:24 PM	A summary of the import was saved to the following location: C:\Users\keerthi.chiguru\source\repos\dacpac_demo\dacpac_db_demo\Import Schema Logs\dacpac_db_demo_20241120030523.log
+11/20/2024 8:35:24 PM	Click Finish to continue...
